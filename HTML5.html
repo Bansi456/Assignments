@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            /* border: 1px solid black; */
+        }
+
+        .container {
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-align: center;
+            text-decoration: underline;
+            padding: 40px;
+        }
+        .ans>p{
+            font-size: 20px;
+            /* text-align: center; */
+        } 
+        ul{
+            font-size: 20px;
+            padding-left: 60px;
+        }
+        .row{
+            display: flex; 
+            width: 80%;
+            margin-left: 50px;
+            border: 1px doubles black;
+            /* font-size: 20px; */
+            
+        }
+        .col20{
+            width: 20%;
+            /* padding: 80px; */
+            /* margin: 60px; */
+            border: 1px solid black;
+        }
+        .col80{
+            width: 80%;
+            border: 1px solid black;
+        }
+        .col20{
+            /* text-align: center; */
+            padding-left: 20px;
+            font-size: 25px;
+        }
+        .col80{
+            /* text-align: center; */
+            font-size: 25px;
+            padding-left: 20px;
+        }
+        .col80>h3{
+            text-align: center;
+            padding: 10px 0;
+        }
+        .col20>h3{
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <h1>Module (HTML5)</h1>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <div class="que">
+                <h2> 1) What are the new tags added in HTML5?</h2>
+            </div>
+            <div class="ans">
+                <p> <br></p>
+                <div class="row">
+                    <div class="col20">
+                        <h3>Tags</h3>
+                    </div>
+                    <div class="col80">
+                        <h3>Uses</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col20">
+                        <p>&ltarticle&gt</p>
+                    </div>
+                    <div class="col80">
+                        <p>Used to specify a blog, a magazine or a newspaper article or any other independent piece of content in a document.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col20">
+                        <p>&ltaside&gt</p>
+                    </div>
+                    <div class="col80">
+                        <p>Used to indicate that the specified article is somehow related to the rest of the document.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col20">
+                        <p>&ltbdi&gt</p>
+                    </div>
+                    <div class="col80">
+                        <p>Used for bi-directional isolation, i.e, to isolate a part of a content which is formatted in other direction from the outside text document.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col20">
+                        <p>&ltdata&gt</p>
+                    </div>
+                    <div class="col80">
+                        <p>Used to facilitate a machine readable version of the data.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col20">
+                        <p>&ltdetails&gt</p>
+                    </div>
+                    <div class="col80">
+                        <p>Used to define any additional information on a topic or a summary.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col20">
+                        <p>&ltdialog&gt</p>
+                    </div>
+                    <div class="col80">
+                        <p>Used to specify a window or a dialog box.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col20">
+                        <p>&ltfigcaption&gt</p>
+                    </div>
+                    <div class="col80">
+                        <p>Used to specify a caption for a &ltfigure&gt element.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col20">
+                        <p>&ltfigure&gt</p>
+                    </div>
+                    <div class="col80">
+                        <p>Used to specify a self-contained content like photos, diagrams etc.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col20">
+                        <p>&ltfooter&gt</p>
+                    </div>
+                    <div class="col80">
+                        <p>Used to specify a footer for a section.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col20">
+                        <p>&ltheader&gt</p>
+                    </div>
+                    <div class="col80">
+                        <p>Used to specify a header for a section.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col20">
+                        <p>&ltmain&gt</p>
+                    </div>
+                    <div class="col80">
+                        <p>Used to specify the main content of a document.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col20">
+                        <p>&ltmark&gt</p>
+                    </div>
+                    <div class="col80">
+                        <p>Used to mark or highlight the specified content.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col20">
+                        <p>&ltmenuitem&gt</p>
+                    </div>
+                    <div class="col80">
+                        <p>Used to specify a command that the user can invoke from a popup menu.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col20">
+                        <p>&ltmeter&gt</p>
+                    </div>
+                    <div class="col80">
+                        <p>Used to determine a scalar value within a given range.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col20">
+                        <p>&ltnav&gt</p>
+                    </div>
+                    <div class="col80">
+                        <p>Used to specify a navigation link in an HTML document.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col20">
+                        <p>&ltprogress&gt</p>
+                    </div>
+                    <div class="col80">
+                        <p>Used to define the progress of a task.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col20">
+                        <p>&ltrp&gt</p>
+                    </div>
+                    <div class="col80">
+                        <p>Used to specify the content to show in a browser that don’t support ruby annotation.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col20">
+                        <p>&ltrt&gt</p>
+                    </div>
+                    <div class="col80">
+                        <p>Used to indicate an explanation or pronunciation of characters.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col20">
+                        <p>&ltruby&gt</p>
+                    </div>
+                    <div class="col80">
+                        <p>Used to specify a ruby annotation along with &ltrp&gt and &ltrt&gt.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col20">
+                        <p>&ltsection&gt</p>
+                    </div>
+                    <div class="col80">
+                        <p>Used to specify a section in an HTML document.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col20">
+                        <p>&ltsummary&gt</p>
+                    </div>
+                    <div class="col80">
+                        <p>Used to define a visible heading for the HTML &ltdetails&lt element.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col20">
+                        <p>&lttime&gt</p>
+                    </div>
+                    <div class="col80">
+                        <p>Used to define a date or time.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col20">
+                        <p>&ltwbr&gt</p>
+                    </div>
+                    <div class="col80">
+                        <p>Used to specify a line break opportunity.</p>
+                    </div>
+                </div> <br>
+                <h2>Form Tags :-</h2> <br>
+                <div class="row">
+                    <div class="col20">
+                        <h3>Tags</h3>
+                    </div>
+                    <div class="col80">
+                        <h3>Uses</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col20">
+                        <p>&ltdatalist&gt</p>
+                    </div>
+                    <div class="col80">
+                        <p>Used to facilitate an auto complete feature for textfield.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col20">
+                        <p>&ltoutput&gt</p>
+                    </div>
+                    <div class="col80">
+                        <p>Used to specify the output of a calculation or an outcome of the user action.</p>
+                    </div>
+                </div> <br>
+                <h2>Graphics Tags :-</h2> <br>
+                <div class="row">
+                    <div class="col20">
+                        <h3>Tags </h3>
+                    </div>
+                    <div class="col80">
+                        <h3>Uses</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col20">
+                        <p>&ltaudio&gt</p>
+                    </div>
+                    <div class="col80">
+                        <p>Used to define an audio file in HTML.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col20">
+                        <p>&ltembed&gt</p>
+                    </div>
+                    <div class="col80">
+                        <p>Used to specify a container for an external file, application or a media.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col20">
+                        <p>&ltsource&gt</p>
+                    </div>
+                    <div class="col80">
+                        <p>Used to specify multiple media resources for a media element.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col20">
+                        <p>&lttrack&gt</p>
+                    </div>
+                    <div class="col80">
+                        <p>Used to specify the text tracks for an &ltaudio&gt or a &ltvideo&gt element.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col20">
+                        <p>&ltvideo&gt</p>
+                    </div>
+                    <div class="col80">
+                        <p>Used to specify a video file in HTML.</p>
+                    </div>
+                </div> <br>
+                <h2>HTML5 New &ltinput&gt types:-</h2> <br>
+                <div class="row">
+                    <div class="col20">
+                        <h3>Type</h3>
+                    </div>
+                    <div class="col80">
+                        <h3>Uses</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col20">
+                        <p>color</p>
+                    </div>
+                    <div class="col80">
+                        <p>Used to define an input field to indicate a color selector.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col20">
+                        <p>date</p>
+                    </div>
+                    <div class="col80">
+                        <p>Used to define an input field to indicate a date selector.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col20">
+                        <p>datetime</p>
+                    </div>
+                    <div class="col80">
+                        <p>Used to display date and time along with the time zone information.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col20">
+                        <p>datetime-local</p>
+                    </div>
+                    <div class="col80">
+                        <p>Used to display date and time without the time zone information.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col20">
+                        <p>email</p>
+                    </div>
+                    <div class="col80">
+                        <p>Used to specify an input field with an email pattern validation property.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col20">
+                        <p>month</p>
+                    </div>
+                    <div class="col80">
+                        <p>Used to specify an input field to enter month for the particular year.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col20">
+                        <p>number</p>
+                    </div>
+                    <div class="col80">
+                        <p>Used to specify a field that accepts a numeric value only.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col20">
+                        <p>range</p>
+                    </div>
+                    <div class="col80">
+                        <p>Used to create a numeric value selector for a range of 1 to 100.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col20">
+                        <p>serch</p>
+                    </div>
+                    <div class="col80">
+                        <p>Used to create a search field.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col20">
+                        <p>tel</p>
+                    </div>
+                    <div class="col80">
+                        <p>Used to define a control to enter a telephone number.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col20">
+                        <p>time</p>
+                    </div>
+                    <div class="col80">
+                        <p>Used to define a control to enter time value with no time zone.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col20">
+                        <p>url</p>
+                    </div>
+                    <div class="col80">
+                        <p>Used to define an input field to enter a URL.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col20">
+                        <p>week</p>
+                    </div>
+                    <div class="col80">
+                        <p>Used to create a week value selector for a particular year.</p>
+                    </div>
+                </div> <br> <br>
+            </div>
+            <div class="que">
+                <h2> 2) How to embed audio and video in a webpage? </h2>
+            </div>
+            <div class="ans">
+                <p> <br> We have audio tag & video tag as shown below.</p> <br>
+                <p>For audio :-  &lt audio controls src="" &gt &lt / audio &gt</p> <br>
+                <p>for video :-  &lt video controls src="" &gt &lt / video &gt</p> <br> <br>
+                <p>we can use embed tag also for embed audio, video and any document file also.</p> <br>
+                <p>for embed :- &lt embed src="" type="" / &gt</p> <br> <br>
+            </div>
+            <div class="que">
+                <h2> 3) Semantic element in HTML5?</h2>
+            </div>
+            <div class="ans">
+                <p> <br> A semantic element clearly describes its meaning to both the browser and the developer.
+                    Elements such as &ltheader&gt , &ltfooter&gt and &ltarticle&gt are all considered semantic because they accurately 
+                    describe the purpose of the element and the type of content that is inside them.</p> <br>
+                <p>Examples of semantic elements: &lt form &gt , &lt table &gt , and  &l tarticle &gt - Clearly defines its content.</p> <br>
+                <p>Examples of non-semantic element: &lt div &gt and &lt span &gt - Tells nothing about its content.</p> <br>
+                <p>In HTML there are some semantic elements that can be used to define different parts of a web page:</p> <br>
+                <ul>
+                    <li>&lt article &gt</li>
+                    <li>&lt aside &gt</li>
+                    <li>&lt details &gt</li>
+                    <li>&lt figcaption &gt</li>
+                    <li>&lt footer &gt</li>
+                    <li>&lt header &gt</li>
+                    <li>&lt main &gt</li>
+                    <li>&lt mark &gt</li>
+                    <li>&lt nav &gt</li>
+                    <li>&lt section &gt</li>
+                    <li>&lt time &gt</li>
+                </ul>
+            </div> <br>
+            <div class="que">
+                <h2> 4) Canvas and SVG tags </h2>
+            </div>
+            <div class="ans">
+                <p> <br><u> <b>Canvas :-</b> </u></p> <br>
+                <p>The &lt; canvas &gt; tag is used to draw graphics, on the fly, via scripting (usually
+                    JavaScript). The &lt; canvas &gt; tag is transparent, and is only a container for graphics, you
+                    must use a script to actually draw the graphics.</p> <br>
+                <p> <u><b>Svg :-</b></u> </p> <br>
+                <p>SVG stands for Scalable Vector Graphics and it is a language for describing 2D-graphics and
+                    graphical applications in XML and the XML is then rendered by an SVG viewer. SVG is mostly
+                    useful for vector type diagrams like Pie charts, Two-dimensional graphs in an X,Y coordinate
+                    system etc.</p> <br>
+                <p> The &lt; svg &gt; tag defines a container for SVG graphics. SVG has several methods for drawing
+                    paths, boxes, circles, text, and graphic images.</p>
+            </div> <br><br>
+        </div>
+    </section> 
+    
+</body>
+</html>
