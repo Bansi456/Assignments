@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            width: 100%;
+        }
+        .title{
+            text-align: center;
+            font-size: 20px;
+            border-radius: 80px;
+            background-color:rgb(79, 80, 80);
+            margin: 50px 500px;
+            padding: 20px;
+            color: wheat;
+        }
+        .question{
+            margin: 40px 250px ;
+            border-radius: 20px;
+            border: dashed;
+            border: palevioletred;
+        }
+        .que{
+            text-align: center;
+            background-color: rgb(199, 92, 92);
+            font-size: 40px;
+            padding: 20px;
+        }
+        .ans{
+            background-color:rgb(109, 107, 110);
+            padding-top: 20px;
+            font-size: 20px;
+            color: white;
+
+        }
+        .row{
+            display: flex;
+        }
+        .col-50{
+            width: 50%;
+        }
+        .col-50>h2{
+            text-align: center;
+            background-color: white;
+            color: rgb(71, 64, 64);
+            margin: 30px;
+            border-radius: 50px;
+    
+        }
+        .col-50{
+            margin: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <div class="title">
+                <h1>Module (JAVASCRIPT BASIC & DOM) </h1>
+            </div>
+        </div>
+    </header>
+    <section>
+    <div class="container">
+        <div class="question">
+            <div class="que">
+                <p> (1)What is JavaScript?  </p>
+            </div>
+            <div class="ans">
+                <p> Ans- <br>
+                    <ol>
+                        <li>JavaScript is Client side Scripting language</li>
+                        <li>For making a page dynamic from client side</li>
+                        <li> Events based programming language. like mouse click, keyboard press etc.</li>
+                        <li> Loosely Typed Language</li>
+                        <li>variable doesnot need to be declared befor its use</li>
+                        <li>we can build slider using JS</li>
+                        <li>We can validate a form using JavaScript</li>
+                        <li>We can also make a dynamic changes on CSS/HTML using JS</li>
+                        <li>for Chrome we have V8 engine for compiling the JS</li>
+                        <li> console.log(); developer option for debugging</li>
+                    </ol>
+                </p>
+            </div>
+        </div>
+        <div class="question">
+            <div class="que">
+                <p> (2)What is the use of isNaN function?   </p>
+            </div>
+            <div class="ans">
+                <p> Ans- <br>
+                    isNaN() is a function property of the global object.For number values, isNaN() tests if the number is the value NaN .
+                    The isNaN() function determines whether a value is NaN when converted to a number.
+                </p>
+            </div>
+        </div>
+        <div class="question">
+            <div class="que">
+                <p> (3)What is negative Infinity?   </p>
+            </div>
+            <div class="ans">
+                <p> Ans- <br>
+                    NEGATIVE_INFINITY is a special numeric value that is returned when an arithmetic operation or mathematical function
+                     generates a negative value greater than the largest representable number in JavaScript
+                </p>
+            </div>
+        </div>
+        <div class="question">
+            <div class="que">
+                <p> (4)Which company developed JavaScript?  </p>
+            </div>
+            <div class="ans">
+                <p> Ans- <br>
+                    JavaScript was invented by Brendan Eich in 1995. It was developed for Netscape 2, and became the ECMA-262 standard in 1997. After Netscape handed JavaScript over to ECMA,
+                    the Mozilla foundation continued to develop JavaScript for the Firefox browser.
+                </p>
+            </div>
+        </div>
+        <div class="question">
+            <div class="que">
+                <p> (5)What are undeclared and undefined variables?  </p>
+            </div>
+            <div class="ans">
+                <p> Ans- <br>
+                    <h2>undeclared</h2>
+                    Undefined variable means a variable has been declared but does not have a value.
+                    <h2>undefined</h2>
+                    Undeclared variable means that the variable does not exist in the program at all. <br>
+                    Example : Undefined Variable <br>
+                    To see an example of an undefined value, declare a variable but do not assign it a value: <br>
+                    <script>
+                        var dog;
+                        console.log(dog);
+                    </script>
+                    Example : Undeclared Variable <br>
+                    An example of an undeclared variable is when there is no such variable in the program. <br>
+                    <script>
+                        console.log(cat);
+                    </script>
+
+                    
+
+                </p>
+            </div>
+        </div>
+        <div class="question">
+            <div class="que">
+                <p> (6)Write the code for adding new elements dynamically?  </p>
+            </div>
+            <div class="ans">
+                <p> Ans- <br>
+                    The createElement() method in JavaScript can be used to create new items dynamically. The setAttribute() method is used to set the attributes of the newly generated element.
+                    By clicking a button, a modal box appears and collects the required information dynamically.
+                </p>
+            </div>
+        </div>
+        <div class="question">
+            <div class="que">
+                <p> (7)What is the difference between ViewState and SessionState?   </p>
+            </div>
+            <div class="ans">
+                <p> Ans- <br>
+                    <div class="row"> 
+                        <div class="col-50">
+                            <h2>ViewState</h2>
+                            <p>(1) ViewState is client side state managment.</p> <br>
+                            <p>(2) View state value is accessible with in the same page.</p> <br>
+                            <p>(3) View state information is stored in hidden fields in client side.</p> <br>
+                            <p>(4) it is less secure.</p> <br> <br>
+                        </div>
+                        <div class="col-50">
+                            <h2>SessionState</h2>
+                            <p>(1) SessionState is server side state managment.</p> <br>
+                            <p>(2) Session variable cane be accessible across page.</p> <br>
+                            <p>(3) Session data is stored in the server and key8 are store in Cookies file.</p> <br>
+                            <p>(4) it is more secure.</p> <br>
+                        </div>
+                        </div>
+                </p>
+            </div>
+        </div>
+        <div class="question">
+            <div class="que">
+                <p> (8)What is === operator?   </p>
+            </div>
+            <div class="ans">
+                <p> Ans- <br>
+                    The strict equality (===) operator checks whether its two operands are equal, returning a Boolean result. Unlike the equality operator, 
+                    the strict equality operator always considers operands of different types to be different.
+                </p>
+            </div>
+        </div>
+        <div class="question">
+            <div class="que">
+                <p> (9)How can the style/class of an element be changed?  </p>
+            </div>
+            <div class="ans">
+                <p> Ans- <br>
+                    If you want to build a cool website or app then UI plays an important role. We can change, 
+                    add or remove any CSS property from an HTML element on the occurrence of any event with the help of JavaScript.
+                </p>
+            </div>
+        </div>
+        <div class="question">
+            <div class="que">
+                <p> (10)How to read and write a file using JavaScript?   </p>
+            </div>
+            <div class="ans">
+                <p> Ans- <br>
+                    Files can be read and written by using java script functions – fopen(),fread() and fwrite().
+                    The function fopen() takes two parameters – 1. Path and 2. Mode (0 for reading and 3 for writing). 
+                    The fopen() function returns -1, if the file is successfully opened.
+                    
+                    There are two ways to do it: <br> <br>
+
+                    1. Using JavaScript extensions (runs from JavaScript Editor), or  <br> <br>
+
+                    2. Using a web page and ActiveX objects (Internet Explorer only) <br> <br>
+
+                    In JavaScript Extensions, you can use <br>
+                    fh = fopen(getScriptPath(), 0); to open a file
+                </p>
+            </div>
+        </div>
+        <div class="question">
+            <div class="que">
+                <p> (11)What are all the looping structures in JavaScript?  </p>
+            </div>
+            <div class="ans">
+                <p> Ans- <br>
+                    Loops in JavaScript are used to execute the same block of code a specified number of times or while a specified condition is true.
+                    The loops available in javascript are:
+                    <ol>
+                        <li>For in :properties of an objects.</li>
+                        <li>While : block of code while condition is true.</li>
+                        <li>do while : block of code once , and then repet while condition is true.</li>
+                        <li>for loop : specified of number of time.</li>
+                    </ol>
+                </p>
+            </div>
+        </div>
+        <div class="question">
+            <div class="que">
+                <p> (12)How can you convert the string of any base to an integer in JavaScript?</p>
+            </div>
+            <div class="ans">
+                <p> Ans- <br>
+                    To convert a string to an integer parseInt(), Number(), and Unary operator(+) function is used in javascript. 
+                    parseInt() function returns Nan( not a number) when the string doesn't contain number. If a string with a number is sent, 
+                    then only that number will be returned as the output.
+                </p>
+            </div>
+        </div>
+        <div class="question">
+            <div class="que">
+                <p> (13)What is the function of the delete operator?  </p> 
+            </div>
+            <div class="ans">
+                <p> Ans- <br>
+                    the delete operator remove a property from an object. if property value is an object and there are no more references to the object,
+                    the object held by  that property is eventually released automatically.
+                </p>
+            </div>
+        </div>
+        <div class="question">
+            <div class="que">
+                <p> (14)What are all the types of Pop up boxes available in JavaScript?  </p>
+            </div>
+            <div class="ans">
+                <p> Ans- <br>
+                    In Javascript, popup boxes are used to display the message or notification to the user. 
+                    There are three types of pop-up boxes in JavaScript namely Alert Box, Confirm Box and Prompt Box. <br> <br>
+                     <b> Alert Box: </b> It is used when a warning message is needed to be produced. 
+                    When the alert box is displayed to the user, the user needs to press ok and proceed. <br>
+                    Syntax:  <br>
+                    alert("your Alert here") <br> <br>
+                    <b> Prompt Box: </b> It is a type of pop up box which is used to get the user input for further use.
+                    After entering the required details user have to click ok to proceed next stage else by pressing the cancel button user returns the null value. <br>
+                    Syntax: <br>
+                    prompt("your Prompt here") <br> <br>
+                     <b> Confirm Box: </b> It is a type of pop-up box that is used to get authorization or permission from the user. 
+                    The user has to press the ok or cancel button to proceed. <br>
+                    Syntax: <br>
+                    confirm("your query here")
+                </p>
+            </div>
+        </div>
+        <div class="question">
+            <div class="que">
+                <p> (15)What is the use of Void (0)?   </p>
+            </div>
+            <div class="ans">
+                <p> Ans- <br>
+                    The void operator evaluates the given expression and then returns undefined. <br>
+                    Syntax:
+                    void ecpression.
+                </p>
+            </div>
+        </div>
+        <div class="question">
+            <div class="que">
+                <p> (16)How can a page be forced to load another page in JavaScript?  </p>
+            </div>
+            <div class="ans">
+                <p> Ans- <br>
+                    You can use window.open method in JavaScript to open other web pages.
+                    In JavaScript, we can use window.location object to force a page to load another page. 
+                    We can use the location object to set the URL of a new page. There are different ways – window.
+                    location.href property, window.location.assign() and window.location.replace() methods, to set the URL of a new page using the location object. 
+                    We will discuss each of the property and methods in detail in this tutorial.
+                    <h2>Window.location.replace</h2>
+                    The first way is to use the window.location.href property. This property contains information about the current URL of the page, 
+                    and it can be used to redirect the user to a new page. <br>
+                    Syntax: <br>
+                    window.location.href = "new_url"; <br>
+                    <h2>window.location.replace</h2>
+                    Another way for redirecting forcefully to another page is to use the window.location.replace property. This method helps in replacing the current page in the browser's history with another page,
+                    but here the user will not be able to return back to the original page. <br>
+                    Syntax: <br>
+                    window.location.replace("new_url");
+                    <h2>window.location.assign</h2>
+                    In this method, we use the window.location.assign method which is used to add a new page to the browser's history allowing the users to return back to the original page browsed by the user. <br>
+                    Syntax: <br>
+                    window.location.assign("new_url");
+                </p>
+            </div>
+        </div>
+        <div class="question">
+            <div class="que">
+                <p> (17)What are the disadvantages of using innerHTML in JavaScript?  </p>
+            </div>
+            <div class="ans">
+                <p> Ans- <br>
+                    (1) <b> Event handlers attached to any DOM element are preserved: </b> <br>
+                    When we have used the event handlers then the event handlers are not automatically attached to the new elements created by innerHTML.  <br>
+                    (2) <b>Replacement is done everywhere:</b> <br>
+                    When innerHTML property is used to modify, all the DOM nodes will have to be parsed and created again. <br>
+                    (3) <b>It is not possible to append innerHTML:</b> <br>
+                    In JavaScript, ‘+=’ is commonly used for appending. However, when using innerHTML to append to an HTML tag, the entire tag is re-parsed. <br>
+                    (4) <b>Breaks the document: </b> <br>
+                    InnerHTML does not provide proper validation, so any valid HTML code can be used. <br>
+                    (5) <b>Used for Cross-site Scripting:</b><br>
+                    The text and images or elements in the webpage can used by hackers or malicious users to change the text or data.
+                </p>
+            </div>
+        </div>
+    </div>
+    </section>
+    
+</body>
+</html>
