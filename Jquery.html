@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            width: 100%;
+        }
+        .title{
+            text-align: center;
+            font-size: 30px;
+            border-radius: 70px;
+            background-color:gray;
+            margin: 50px 425px;
+            padding: 20px;
+            color:rgb(245, 235, 245)
+
+        }
+        .question{
+            margin: 40px 250px ;
+            border-radius: 20px;
+            border: dashed;
+            border: palevioletred;
+        }
+        .que{
+            /* background-color: silver; */
+            background-color:rgb(249, 185, 142) ;
+            font-size: 40px;
+            padding: 20px;
+        }
+        .ans{
+            background-color:rgb(19, 164, 208);
+            padding-top: 20px;
+            padding-left: 20px;
+            font-size: 20px;
+            color:black
+
+        }
+    </style>
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <div class="title">
+                <h1>Module (JQuery Basic, Effects & Advanced) </h1>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <div class="question">
+                <div class="que">
+                    <p> (1)What is jQuery? </p>
+                </div>
+                <div class="ans">
+                    <p> Ans- <br>
+                        jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, 
+                        event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. 
+                        With a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript.
+                      
+                    </p>
+                </div>
+            </div>
+            <div class="question">
+                <div class="que">
+                    <p> (2) How to Apply CSS Using JQuery, How to Add Class and Remove Class in Jquery, JQuery Animation? </p>
+                </div>
+                <div class="ans">
+                    <p> Ans- <br>
+                       =><strong> The css() method sets or returns one or more style properties for the selected elements.</strong>
+                        <h2>Return a CSS Property</h2>
+                        <p>To return the value of a specified CSS property, use the following syntax:</p>
+                        <strong>css("propertyname");</strong>
+                        <h2>Set a CSS properties</h2>
+                        <p>To set a specified CSS property, use the following syntax:</p>
+                        <strong>css("propertyname","value");</strong>
+                        <h2>Set Multiple CSS Properties</h2>
+                        <p>To set multiple CSS properties, use the following syntax:</p>
+                        <strong>css({"propertyname":"value","propertyname":"value",...});</strong> <br><br>
+                        => <strong>jQuery addClass() Method</strong>
+                        <p>The addClass() method adds one or more class names to the selected elements. This method does not remove existing class attributes, it only adds one or more class names to the class attribute. \
+                        Tip: To add more than one class, separate the class names with spaces.</p>
+                        Syntax: <br>
+                        Adding a class: <br>
+                        $('selector').addClass(class_name); <br> <br>
+                        <strong>jQuery removeClass() Method</strong>
+                        <p>The removeClass() method removes one or more class names from the selected elements. 
+                        Note: If no parameter is specified, this method will remove ALL class names from the selected elements.</p>
+                        Syntax: <br>
+                        Removing a class: <br>
+                        $('selector').removeClass(class_name); <br> <br>
+                        =><strong>animate() Method</strong> <br>
+                        The jQuery animate() method is used to create custom animations by changing the CSS numerical properties of a DOM element, 
+                        for example, width, height, margin, padding, opacity, top, left, etc. <br> <br>
+                        Following is a simple syntax of animate() method: <br>
+                        $(selector).animate({ properties }, [speed, callback] );
+                        
+                    </p>
+                </div>
+            </div>
+            <div class="question">
+                <div class="que">
+                    <p> (3) How to create slider with animation</p>
+                </div>
+                <div class="ans">
+                    <p> Ans- <br>
+                        With jQuery you can create a sliding effect on elements. <br>
+                        jQuery has the following slide methods: <br>
+                        <ul>
+                            <li>slideDown()</li>
+                            <li>slideUp()</li>
+                            <li>slideToggle()</li>
+                        </ul>
+                        <h2>jQuery slideDown() Method</h2>
+                        The jQuery slideDown() method is used to slide down an element. <br>
+                        Syntax: <br>
+                        $(selector).slideDown(speed,callback); <br>
+                        <h2>jQuery slideUp() Method</h2> 
+                        The jQuery slideUp() method is used to slide up an element. <br>
+                        Syntax: <br>
+                        $(selector).slideUp(speed,callback); <br>
+                        <h2>jQuery slideToggle() Method</h2>
+                        The jQuery slideToggle() method toggles between the slideDown() and slideUp() methods. <br>
+                        If the elements have been slid down, slideToggle() will slide them up. <br>
+                        If the elements have been slid up, slideToggle() will slide them down. <br>
+                        Syntax: <br>
+                        $(selector).slideDown(speed,callback); <br>
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
